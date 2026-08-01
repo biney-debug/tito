@@ -57,7 +57,7 @@ initial_allocation_usd = 0
 # — defaults below stay in allocate-only mode. This
 # automatic `load_model()` hook IS the agent's LLM-credit self-top-up (NOT an
 # LLM-callable tool).
-enabled = true            # set false to opt out of in-process auto-allocate
+enabled = false            # set false to opt out of in-process auto-allocate
 min_balance_usd = 0.01    # Key Credit threshold that triggers allocate
 topup_chunk_usd = 1.0     # chunk pulled from Account Balance per allocate
 max_topup_per_day_usd = 3.0   # opt-in cap; only enforced when `bag budget enable` is on
